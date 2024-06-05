@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VerBoat</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />  
+</head>
   <body>
     <div class="container">
       <header>
-        <div>
-          <img src="images/homePage/logo.png" alt="Logo" />
-          <h1>VerBoat</h1>
+        <div class="logo-container">
+          <img src="images/homePage/VerboatLogo02.png" alt="Logo" />
+          <p>VerBoat</p>
         </div>
-        <div>
+        <div class="header-right">
           <nav>
             <ul>
               <li><a href="home.html">Home</a></li>
@@ -21,13 +25,15 @@
               <li><a href="aboutus.html">About Us</a></li>
               <li><a href="resources.html">Resources</a></li>
             </ul>
-            <button>Login/Sign Up</button>
-          </nav>
+        </nav>
+        <button>Login/Sign Up</button>
         </div>
       </header>
       <main>
-        <section>
-          <h1>VerBoat: Your Trusted Platform for Verified Boat Surveys and Sales</h1>
+    
+        <section class="hero">
+            <div class="hero-content">
+          <h1 class="hero-title">VerBoat: Your Trusted Platform for Verified Boat Surveys and Sales</h1>
           <p>
             At Verboat, we understand that buying and selling boats is a significant decision. Our mission is to provide a reliable, transparent, and
             user-friendly platform where boat enthusiasts, owners, and buyers can connect with confidence.
@@ -36,6 +42,7 @@
             <input type="text" placeholder="Boat Code" />
             <button>Find Boat</button>
           </form>
+        </div>
         </section>
         <section>
           <div>
