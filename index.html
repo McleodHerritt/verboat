@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VerBoat</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="styles.css" />  
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
     <div class="container">
       <header>
@@ -25,48 +25,53 @@
               <li><a href="aboutus.html">About Us</a></li>
               <li><a href="resources.html">Resources</a></li>
             </ul>
-        </nav>
-        <button>Login/Sign Up</button>
+          </nav>
+          <button>Login/Sign Up</button>
         </div>
       </header>
       <main>
-    
         <section class="hero">
-            <div class="hero-content">
-          <h1 class="hero-title">VerBoat: Your Trusted Platform for Verified Boat Surveys and Sales</h1>
-          <p>
-            At Verboat, we understand that buying and selling boats is a significant decision. Our mission is to provide a reliable, transparent, and
-            user-friendly platform where boat enthusiasts, owners, and buyers can connect with confidence.
-          </p>
-          <form>
-            <input type="text" placeholder="Boat Code" />
-            <button>Find Boat</button>
-          </form>
-        </div>
+          <div class="hero-content">
+            <h1>VerBoat: Your Trusted Platform for Verified Boat Surveys and Sales</h1>
+            <p>
+              At Verboat, we understand that buying and selling boats is a significant decision. Our mission is to provide a reliable, transparent,
+              and user-friendly platform where boat enthusiasts, owners, and buyers can connect with confidence.
+            </p>
+            <form>
+              <input type="text" placeholder="Boat Code" />
+              <button>Find Boat</button>
+            </form>
+          </div>
         </section>
         <section>
-          <div>
-            <h2>Boats</h2>
-            <button>Filters</button>
+          <div class="display-boats">
+            <div class="boats-header">
+              <h2>Boats</h2>
+              <button>Filters</button>
+            </div>
+            <div class="cards-container" id="cards-container"></div>
+            <button class="more-button">More</button>
           </div>
-          <div class="cards-container" id="cards-container"></div>
-          <button>More</button>
         </section>
       </main>
       <footer>
-        <div>
-          <h2>VerBoat 2024</h2>
-          <div>
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <div class="footer">
+          <div class="footer-left">
+            <p>VerBoat 2024</p>
+            <div class="footer-links">
+              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
           </div>
-          <div>
+
+          <div class="footer-right">
             <a href="project.html">Project</a>
             <a href="about.html">About</a>
             <a href="contacts.html">Contacts</a>
             <a href="support.html">Support</a>
+          </div>
         </div>
       </footer>
     </div>

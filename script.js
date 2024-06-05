@@ -128,12 +128,13 @@ data.forEach((boat) => {
   card.innerHTML = `
     <img src="${boat.img}" alt="${boat.name}" />
     <div class="card-info">
-      <h2>${boat.name}</h2>
-      <p>${boat.length} ft</p>
+      <h2>${boat.name} - ${boat.length} ft</h2>
+      <div class="location-year">
       <p>${boat.location.city}, ${boat.location.state}</p>
       <p>${boat.year}</p>
-      <p>$${boat.price}</p>
-    </div>
+      </div>
+      <p>$${boat.price.toLocaleString()}</p>    
+      </div>
   `;
   cards_container.appendChild(card);
 });
