@@ -123,7 +123,8 @@ const data = [
 const cards_container = document.getElementById("cards-container");
 
 data.forEach((boat) => {
-  const card = document.createElement("div");
+  const card = document.createElement("a");
+  card.href = "linkPage.html";
   card.classList.add("card");
   card.innerHTML = `
     <img src="${boat.img}" alt="${boat.name}" />
