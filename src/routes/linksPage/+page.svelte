@@ -15,7 +15,7 @@
               <p class="boat-length">{linkPageData.length} ft / {linkPageData.year}</p>
               <p class="boat-price">{formatPrice(linkPageData.price)}</p>
               <p class="boat-description">{linkPageData.description}</p>
-              <button class="survey-button"></button>
+              <button class="survey-button">Open Survey</button>
             </div>
           </section>
       <h2 class="survey-fee">Survey access fee is 10$</h2>
