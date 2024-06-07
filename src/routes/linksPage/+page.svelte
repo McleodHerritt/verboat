@@ -22,7 +22,7 @@
       <h2>Similar Category</h2>
       <div class="similar-boats-container" id="similar-boats-container">
         {#each similarBoats as boat}
-        <a href="linkPage.html" class="card">
+        <a href="/linksPage" class="card">
           <img src={boat.img} alt={boat.name} />
           <div class="card-info">
             <h2>{boat.name}</h2>
