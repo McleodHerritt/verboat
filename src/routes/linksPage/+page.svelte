@@ -16,10 +16,10 @@
               <p class="boat-price">{formatPrice(linkPageData.price)}</p>
               <p class="boat-description">{linkPageData.description}</p>
               <button class="survey-button">Open Survey</button>
+            <h2 class="survey-fee">Survey access fee is 10$</h2>
             </div>
           </section>
-      <h2 class="survey-fee">Survey access fee is 10$</h2>
-      <h2>Similar Category</h2>
+      <h2 class=similar-category>Similar Category</h2>
       <div class="similar-boats-container" id="similar-boats-container">
         {#each similarBoats as boat}
         <a href="/linksPage" class="card">

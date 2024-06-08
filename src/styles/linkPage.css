@@ -58,6 +58,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: grey;
+
   white-space: pre-line; /* Preserve line breaks from the description text */
 }
 
@@ -72,15 +74,21 @@
   font-size: 0.8em;
   display: flex;
 
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
-  padding: 0 10rem;
 }
 
 .survey-button {
   padding: 1rem 6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .link-header {
   padding: 0;
+}
+
+.similar-category {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
