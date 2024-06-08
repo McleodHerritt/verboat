@@ -1,6 +1,6 @@
 export const data = [
   {
-    name: "Sailfish 19",
+    boat_make: "Sailfish 19",
     length: 19,
     location: {
       city: "St Petersburg",
@@ -12,7 +12,7 @@ export const data = [
   },
 
   {
-    name: "Sea Swirl",
+    boat_make: "Sea Swirl",
     length: 21,
     location: {
       city: "Clearwater",
@@ -24,7 +24,7 @@ export const data = [
   },
 
   {
-    name: "Sunbird 200",
+    boat_make: "Sunbird 200",
     length: 20,
     location: {
       city: "Clearwater",
@@ -36,7 +36,7 @@ export const data = [
   },
 
   {
-    name: "SeaRay 175 Sport",
+    boat_make: "SeaRay 175 Sport",
     length: 17,
     location: {
       city: "Valrico",
@@ -48,7 +48,7 @@ export const data = [
   },
 
   {
-    name: "Boston Whaler ",
+    boat_make: "Boston Whaler ",
     length: 15,
     location: {
       city: "Holiday",
@@ -60,7 +60,7 @@ export const data = [
   },
 
   {
-    name: "Hurricane 257 DC ",
+    boat_make: "Hurricane 257 DC ",
     length: 25,
     location: {
       city: "Hudson",
@@ -72,7 +72,7 @@ export const data = [
   },
 
   {
-    name: "Silverton 37C ",
+    boat_make: "Silverton 37C ",
     length: 37,
     location: {
       city: "St Petersburg",
@@ -84,7 +84,7 @@ export const data = [
   },
 
   {
-    name: "Boston Whaler ",
+    boat_make: "Boston Whaler ",
     length: 15,
     location: {
       city: "Holiday",
@@ -96,7 +96,7 @@ export const data = [
   },
 
   {
-    name: "Boston Whaler ",
+    boat_make: "Boston Whaler ",
     length: 15,
     location: {
       city: "Holiday",
@@ -108,7 +108,7 @@ export const data = [
   },
 
   {
-    name: "Boston Whaler ",
+    boat_make: "Boston Whaler ",
     length: 15,
     location: {
       city: "Holiday",
@@ -121,7 +121,7 @@ export const data = [
 ];
 
 export const linkPageData = {
-  name: "SeaRay 175 Sport",
+  boat_make: "SeaRay 175 Sport",
   length: 17,
   location: {
     city: "Valrico",
@@ -135,7 +135,7 @@ export const linkPageData = {
 
 export const similarBoats = [
   {
-    name: "Sailfish 19",
+    boat_make: "Sailfish 19",
     length: 19,
     location: {
       city: "St Petersburg",
@@ -147,7 +147,7 @@ export const similarBoats = [
   },
 
   {
-    name: "Sea Swirl",
+    boat_make: "Sea Swirl",
     length: 21,
     location: {
       city: "Clearwater",
@@ -159,7 +159,7 @@ export const similarBoats = [
   },
 
   {
-    name: "Sunbird 200",
+    boat_make: "Sunbird 200",
     length: 20,
     location: {
       city: "Clearwater",
@@ -171,7 +171,7 @@ export const similarBoats = [
   },
 
   {
-    name: "SeaRay 175 Sport",
+    boat_make: "SeaRay 175 Sport",
     length: 17,
     location: {
       city: "Valrico",
@@ -180,5 +180,42 @@ export const similarBoats = [
     year: 2009,
     price: 10500,
     img: "images/homePage/SeaRay175Sport.png",
+  },
+];
+
+export const surveyData = [
+  {
+    user_id: "google-oauth2|117896609438737970940",
+    boat_make: "Regal",
+    boat_model: "2665",
+    boat_registration: "Commondore",
+    length: "26F",
+    year: "2006",
+    engine: "350 MAG MPI",
+    price: "20000",
+    city: "Florida",
+    owner_contact: "test",
+    created_at: "2024-06-05 23:48:42",
+    sections: {
+      hull: {
+        layout_overview: {},
+        design: {},
+        deck: {},
+        structural_members: {},
+        bottom_paint: {},
+        blister_comment: {},
+        transom: {},
+        "Functional Equinment": {
+          "Bimini Top": {
+            images: [],
+            steps: ["Torn and stored inside the cabin - images attached"],
+          },
+          Drain: {
+            images: [],
+            steps: ["Clogged in engine hatch and step down into cabin"],
+          },
+        },
+      },
+    },
   },
 ];

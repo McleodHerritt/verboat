@@ -2,6 +2,7 @@
     import {data} from '$lib/data.js';
 
     const formatPrice = (price) => `$${price.toLocaleString().replace(/,/g, ' ')}`;
+    
 </script>
 
 
@@ -29,9 +30,9 @@
           <div class="cards-container" id="cards-container">
             {#each data as boat}
               <a href="/linksPage" class="card">
-                <img src={boat.img} alt={boat.name} />
+                <img src={boat.img} alt={boat.boat_make} />
                 <div class="card-info">
-                  <h2>{boat.name} - {boat.length} ft</h2>
+                  <h2>{boat.boat_make} - {boat.length} ft</h2>
                   <div class="location-year">
                     <p>{boat.location.city}, {boat.location.state}</p>
                     <p>{boat.year}</p>

@@ -11,7 +11,7 @@
               <img src={linkPageData.img} alt={linkPageData.name} class="boat-image" />
             </div>
             <div class="main-info-container">
-              <h1 class="boat-name">{linkPageData.name}</h1>
+              <h1 class="boat-name">{linkPageData.boat_make}</h1>
               <p class="boat-length">{linkPageData.length} ft / {linkPageData.year}</p>
               <p class="boat-price">{formatPrice(linkPageData.price)}</p>
               <p class="boat-description">{linkPageData.description}</p>
@@ -20,12 +20,11 @@
             </div>
           </section>
       <h2 class=similar-category>Similar Category</h2>
-      <div class="similar-boats-container" id="similar-boats-container">
+      <div class="cards-container" id="similar-boats-container">
         {#each similarBoats as boat}
-        <a href="/linksPage" class="card">
-          <img src={boat.img} alt={boat.name} />
-          <div class="card-info">
-            <h2>{boat.name}</h2>
+        <div class="card-info">
+            <img src={boat.img} alt={boat.name} />
+            <h2>{boat.boat_make}</h2>
             <p>{boat.length} ft</p>
             <div class="location-year">
               <p>{boat.location.city}, {boat.location.state}</p>
@@ -33,7 +32,7 @@
             </div>
             <p>{formatPrice(boat.price)}</p>
           </div>
-        </a>
+        
       {/each}
       </div>
     </main>
