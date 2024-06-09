@@ -205,7 +205,7 @@ export const surveyData = [
         bottom_paint: {},
         blister_comment: {},
         transom: {},
-        "Functional Equinment": {
+        "Functional Equipment": {
           "Bimini Top": {
             images: [],
             steps: ["Torn and stored inside the cabin - images attached"],
@@ -213,6 +213,44 @@ export const surveyData = [
           Drain: {
             images: [],
             steps: ["Clogged in engine hatch and step down into cabin"],
+          },
+          "Cabin Window": {
+            images: [],
+            steps: ["No windows damaged or leaking"],
+          },
+          "Coast Guard Kit": {
+            "Coast Guard Kit": [],
+            steps: ["Needs new everything - couple life jackets on boat"],
+          },
+          "Dash Panel For Gauges": {
+            images: [],
+            steps: ["Completely Missing"],
+          },
+          "Fireboy System": {
+            images: [],
+            steps: ["Has a green light when keyed up but will need to be recertified and properly checked by license professional"],
+          },
+          "Hatch Gasket": {
+            images: [],
+            steps: ["Gaskets torn off and no gas shocks"],
+          },
+          "Interior Upholstery": {
+            images: [],
+            steps: ["Has mildew stains, no major rips or tears recommends detailed cleaning"],
+          },
+          MidBilge: {
+            images: [],
+            steps: ["Holding water - this is most likley from the hole in the windlass anchor area"],
+          },
+          "Safety Equipment": {
+            images: [],
+            steps: ["All fire extinguishers need to be replaced - one in bilge not secured and falling down"],
+          },
+        },
+        Fiberglass: {
+          "Fiberglass - Port": {
+            images: [],
+            steps: ["In good condition, no major damage to sides or bottom of hull "],
           },
         },
       },
