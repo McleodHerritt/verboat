@@ -3,7 +3,7 @@
     import { surveyData } from '$lib/data.js';
     import { writable } from 'svelte/store';
   
-    export let editable = false;
+    export let editable = true;
   
     let boatDetails = writable(surveyData[0]);
   

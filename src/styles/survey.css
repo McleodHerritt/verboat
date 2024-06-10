@@ -24,3 +24,11 @@
   width: 150px;
   height: 150px;
 }
+
+.survey-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem;
+}

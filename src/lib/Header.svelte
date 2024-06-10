@@ -1,7 +1,7 @@
 <script>
  import { onMount } from 'svelte';
 
-export let title = "My App";
+export const title = "My App";
 
 onMount(() => {
   document.querySelector('.menu-toggle').addEventListener('click', function() {
@@ -20,7 +20,7 @@ onMount(() => {
     <nav>
       <ul class="menu">
         <li><a href="/">Home</a></li>
-        <li><a href="/survey">Add Survey</a></li>
+        <li><a href="/addSurvey">Add Survey</a></li>
         <li><a href="aboutus.html">About Us</a></li>
         <li><a href="resources.html">Resources</a></li>
       </ul>

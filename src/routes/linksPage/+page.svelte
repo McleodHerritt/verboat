@@ -1,5 +1,6 @@
 <script>
     import {similarBoats, linkPageData} from '$lib/data.js';
+    import { goto } from '$app/navigation';
 
     const formatPrice = (price) => `$${price.toLocaleString().replace(/,/g, ' ')}`;
 </script>
@@ -15,7 +16,8 @@
               <p class="boat-length">{linkPageData.length} ft / {linkPageData.year}</p>
               <p class="boat-price">{formatPrice(linkPageData.price)}</p>
               <p class="boat-description">{linkPageData.description}</p>
-              <button class="survey-button">Open Survey</button>
+              <button on:click={() => goto('/survey')} class="survey-button">Open Survey</button>
+             
             <h2 class="survey-fee">Survey access fee is 10$</h2>
             </div>
           </section>
